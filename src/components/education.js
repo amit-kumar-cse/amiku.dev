@@ -4,6 +4,29 @@ import PropTypes from 'prop-types';
 import './experience.scss';
 
 class Education extends Component {
+
+    componentDidMount(){
+        //get request
+        // fetch('https://reqres.in/api/users')
+        //     .then(res => res.json())
+        //     .then(output => {
+        //         console.log(output)
+        //     })
+
+        //post request
+        // fetch('https://reqres.in/api/users', {
+        //     body: {
+        //         "name": "morpheus",
+        //         "job": "leader"
+        //     },
+        //     method: 'POST'
+        // })
+        //     .then(res => res.json())
+        //     .then(output => {
+        //         console.log(output)
+        //     })
+    };
+
     render() {
         return (
             <div className='row'>
