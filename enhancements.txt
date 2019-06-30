@@ -1,3 +1,10 @@
-1. add skills set
-2. add a footer with links to linkedin, twitter and github.
-3.
+Vital
+add skills set
+add a footer with links to linkedin, twitter and github.
+
+
+Essential
+
+
+Desirable
+develop auto build, every checkin should deploy within few mins
