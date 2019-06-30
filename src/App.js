@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.scss';
 
-import Experience
-    from './components/experience'
+import Experience from './components/experience'
+import Education from './components/education'
 
 // import $ from 'jquery';
 // import Popper from 'popper.js';
@@ -44,6 +44,27 @@ function App() {
 
     ];
 
+    let education = [
+        {
+            college: 'IIT Varanasi',
+            degree: 'B. Tech.',
+            specialization: 'Computer Sc. & Engg.',
+            startDate: '2005',
+            endDate: '2009',
+            icon: 'dce.png',
+            showLine: true
+        },
+        {
+            college: 'Delhi Technological University',
+            degree: 'M. Tech.',
+            specialization: 'Software Engg.',
+            startDate: '2012',
+            endDate: '2014',
+            icon: 'bhu.png',
+            showLine: false
+        }
+    ]
+
     return (
         <div className="App container-fluid">
             <div className='bg-image-container'>
@@ -64,7 +85,7 @@ function App() {
             </div>
             <div className="card text-secondary detail-section div-center">
                 <div className="card-body text-left">
-                    <h3 className="card-title text-primary">About</h3>
+                    <h4 className="card-title text-primary">About</h4>
                     {/*<hr/>*/}
                     <div>
                         <p>Software professional with 5.5 years of experience in full-stack system design and software
@@ -124,13 +145,20 @@ function App() {
             <br/>
             <div className="card text-secondary detail-section div-center">
                 <div className="card-body text-left">
-                    <h3 className="card-title text-primary">Education</h3>
-                    <div>
-                        <p>Software professional with 5.5 years of experience in full-stack system design and software
-                            development across Banking and Advertising domains at Amazon, Morgan Stanley and Adobe.</p>
-
-
-                    </div>
+                    <h4 className="card-title text-primary">Education</h4>
+                    <hr/>
+                    <Education education={education[0]}>
+                        <div>Rewarded with Best innovation prize in Annual National technical festival (technex '07)
+                            for presentation of Digital Economy concept with working model.
+                        </div>
+                    </Education>
+                    <Education education={education[1]}>
+                        <div>
+                            Attended Courses on Artificial Intelligence, Cryptography, Distributed systems,
+                            Software engineering best practices.
+                            Also grabbed excellent grip on data structures, algorithms and Core Java.
+                        </div>
+                    </Education>
 
                 </div>
             </div>
