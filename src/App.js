@@ -80,10 +80,9 @@ function App() {
 
             </div>
 
-            <div className={'content-body'}>
+            <br/>
 
-            </div>
-            <div className="card text-secondary detail-section div-center">
+            <div className="card text-secondary detail-section div-center shadow">
                 <div className="card-body text-left">
                     <h4 className="card-title text-primary">About</h4>
                     {/*<hr/>*/}
@@ -103,8 +102,9 @@ function App() {
             </div>
 
             <br/>
+            <br/>
 
-            <div className="card text-secondary detail-section div-center">
+            <div className="card text-secondary detail-section div-center shadow">
                 <div className="card-body text-left">
                     <h4 className="card-title text-primary">Experience</h4>
                     <hr/>
@@ -143,7 +143,9 @@ function App() {
             </div>
 
             <br/>
-            <div className="card text-secondary detail-section div-center">
+            <br/>
+            
+            <div className="card text-secondary detail-section div-center shadow">
                 <div className="card-body text-left">
                     <h4 className="card-title text-primary">Education</h4>
                     <hr/>
@@ -162,6 +164,9 @@ function App() {
 
                 </div>
             </div>
+
+            <br/>
+            <br/>
 
             <footer>
 

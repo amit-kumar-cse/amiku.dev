@@ -1,0 +1,3 @@
+1. add skills set
+2. add a footer with links to linkedin, twitter and github.
+3.
