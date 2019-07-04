@@ -168,8 +168,10 @@ function App() {
             <br/>
             <br/>
 
-            <footer>
+            <footer className='card-footer'>
+                <div>
 
+                </div>
             </footer>
         </div>
     );
