@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.scss';
 
+import educationData from './data/education';
+import experienceData from './data/experience';
+
 import Experience from './components/experience'
 import Education from './components/education'
 
@@ -10,60 +13,9 @@ import Education from './components/education'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-    let experiences = [
-        {
-            'firm': 'Amazon',
-            'position': 'SDE-2',
-            'startDate': 'Oct/18',
-            'endDate': 'Present',
-            'period': '9 months',
-            'location': 'Bangaluru',
-            'icon': 'amazon.png',
-            showLine: true
-        },
-        {
-            'firm': 'Morgan Stanley',
-            'position': 'Senior Software Engineer',
-            'startDate': 'Aug/14',
-            'endDate': 'Oct/18',
-            'period': '4 yr 3 mos',
-            'location': 'Mumbai',
-            'icon': 'ms.png',
-            showLine: true
-        },
-        {
-            'firm': 'Adobe',
-            'position': 'Member of Technical staff',
-            'startDate': 'May/09',
-            'endDate': 'Dec/09',
-            'period': '8 mos',
-            'location': 'Noida',
-            'icon': 'adobe.jpeg',
-            showLine: false
-        }
 
-    ];
 
-    let education = [
-        {
-            college: 'IIT Varanasi',
-            degree: 'B. Tech.',
-            specialization: 'Computer Sc. & Engg.',
-            startDate: '2005',
-            endDate: '2009',
-            icon: 'dce.png',
-            showLine: true
-        },
-        {
-            college: 'Delhi Technological University',
-            degree: 'M. Tech.',
-            specialization: 'Software Engg.',
-            startDate: '2012',
-            endDate: '2014',
-            icon: 'bhu.png',
-            showLine: false
-        }
-    ]
+
 
     return (
         <div className="App container-fluid">
@@ -108,7 +60,7 @@ function App() {
                 <div className="card-body text-left">
                     <h4 className="card-title text-primary">Experience</h4>
                     <hr/>
-                    <Experience experience={experiences[0]}>
+                    <Experience experience={experienceData[0]}>
                         <div className='pt-3'>Working for Amazon advertisement design services platform. Our application is a full
                             stack application which provides raw assets and final creative spec exchange,
                             feedback and approval workflows between advertisers and amazon creative designers.
@@ -119,7 +71,7 @@ function App() {
 
 
 
-                    <Experience experience={experiences[1]}>
+                    <Experience experience={experienceData[1]}>
                         <div className='pt-3'>
                             <ul className='list-unstyled'>
                                 <li>Design architecture and development of Settlement instruction renovation program, which is a repository for creating, maintaining and settlement instructions. Settlement instructions are used for trade enrichment, settlement and confirmation.</li>
@@ -131,7 +83,7 @@ function App() {
                         </div>
                     </Experience>
 
-                    <Experience experience={experiences[2]}>
+                    <Experience experience={experienceData[2]}>
                         <div className='pt-3'>
                             <ul className='list-unstyled'>
                                 <li>Automated the mechanism to add peer review comments on violation of Adobe code policy against new perforce check- ins through the implementation of wrapper over code collaborator API</li>
@@ -149,12 +101,12 @@ function App() {
                 <div className="card-body text-left">
                     <h4 className="card-title text-primary">Education</h4>
                     <hr/>
-                    <Education education={education[0]}>
+                    <Education education={educationData[0]}>
                         <div>Rewarded with Best innovation prize in Annual National technical festival (technex '07)
                             for presentation of Digital Economy concept with working model.
                         </div>
                     </Education>
-                    <Education education={education[1]}>
+                    <Education education={educationData[1]}>
                         <div>
                             Attended Courses on Artificial Intelligence, Cryptography, Distributed systems,
                             Software engineering best practices.
