@@ -24,56 +24,7 @@ yarn-error.log*
 
 #idea
 
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@amit1702
-
-2,816
-85,831
-
-    42,186
-
-github/gitignore
-Code
-Pull requests 91
-Projects 0
-Security
-Insights
-gitignore/Global/JetBrains.gitignore
-@scadgek scadgek Add ignores for file-based projects (#2902) b5aa92c on May 12
-@bamapookie
-@thunsaker
-@samskiter
-@LazarusX
-@arcresu
-@akelsch
-@victorhaggqvist
-@DKroot
-@shiftkey
-@twhitbeck
-@tsteinholz
-@tomsquest
-@stuckj
-@ssinss
-@scadgek
-@rocketraman
-@RobertoNovelo
-@Cantido
-@petermorlion
-@OmarShaikh42
-@nfcopier
-@meyerlasse
-@koppor
-@KenjiOhtsuka
-@jturmel
-@Nihlus
-69 lines (53 sloc) 1.41 KB
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
-
 # User-specific stuff
 .idea/*
 .idea/**/workspace.xml
@@ -137,22 +88,3 @@ fabric.properties
 
 # Editor-based Rest Client
 .idea/httpRequests
-
-# Android studio 3.1+ serialized cache file
-.idea/caches/build_file_checksums.ser
-
-    © 2019 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
-
