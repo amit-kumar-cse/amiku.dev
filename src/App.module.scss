@@ -45,3 +45,9 @@
     width: 100%;
   }
 }
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

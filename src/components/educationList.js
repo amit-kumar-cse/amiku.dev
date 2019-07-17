@@ -5,7 +5,7 @@ import commonClasses from '../commons.module.scss';
 
 const educationList = props => {
     return (
-        <div className={`card text-secondary ${commonClasses.detailSection} m-auto shadow mb-4`}>
+        <div className={`card text-secondary ${commonClasses.detailSection} mb-4 shadow`}>
             <div className="card-body text-left">
                 <h4 className="card-title text-primary">Education</h4>
                 <hr/>
