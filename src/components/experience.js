@@ -7,10 +7,10 @@ class Experience extends Component {
     render() {
         return (
             <div className='row'>
-                <div className='col-12 col-lg-2'>
+                <div className='col-12 col-md-2'>
                     <img src={'./images/' + this.props.experience.icon} className='company-icon pb-3' alt={this.props.experience.firm}/>
                 </div>
-                <div className='col-12 col-lg-10'>
+                <div className='col-12 col-md-10'>
                     <div className='text-dark mb-1 font-weight-bolder'>{this.props.experience.position}</div>
                     <div className='text-dark font-weight-bold'>{this.props.experience.firm}</div>
                     <div className='text-secondary'>
