@@ -1,7 +1,7 @@
 import React from 'react';
 import Experience from "./experience";
 
-import commonClasses from '../commons.module.scss';
+import commonClasses from './commons.module.scss';
 
 import experienceData from '../data/experience';
 

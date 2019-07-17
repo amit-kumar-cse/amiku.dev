@@ -1,7 +1,7 @@
 import React from 'react';
 import Education from "./education";
 import educationData from "../data/education";
-import commonClasses from '../commons.module.scss';
+import commonClasses from './commons.module.scss';
 
 const educationList = props => {
     return (
