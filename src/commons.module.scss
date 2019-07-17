@@ -1,0 +1,21 @@
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+@include media-breakpoint-only(xs) {
+  .detailSection {
+    width: 100%;
+  }
+}
+
+@include media-breakpoint-between(sm, md) {
+  .detailSection {
+    width: 90%;
+  }
+}
+
+@include media-breakpoint-between(lg, xl) {
+  .detailSection {
+    width: 75%;
+  }
+}
