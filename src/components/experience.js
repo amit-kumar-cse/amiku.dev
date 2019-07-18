@@ -28,7 +28,7 @@ class Experience extends Component {
                     <hr/>
                     {this.props.children}
 
-                    {this.props.experience.showLine? (<hr/>): null}
+                    {/*{this.props.experience.showLine? (<hr/>): null}*/}
                 </div>
 
             </div>

@@ -21,7 +21,7 @@ const experienceList = props => {
                             I am contributing to all tiers of development.</li>
                     </ul>
                 </Experience>
-
+                <hr/>
 
 
                 <Experience experience={experienceData[1]}>
@@ -33,6 +33,7 @@ const experienceList = props => {
                         <li>- Designed and developed a very well appreciated Google Map integrated web application for Morgan Stanley Real Estate Investments (Similar to 99acres)</li>
                     </ul>
                 </Experience>
+                <hr/>
 
                 <Experience experience={experienceData[2]}>
                     <ul className='list-unstyled text-justify'>

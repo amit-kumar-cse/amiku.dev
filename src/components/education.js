@@ -45,7 +45,7 @@ class Education extends Component {
                     <hr/>
                     {this.props.children}
 
-                    {this.props.education.showLine? (<hr/>): null}
+                    {/*{this.props.education.showLine? (<hr/>): null}*/}
                 </div>
 
             </div>

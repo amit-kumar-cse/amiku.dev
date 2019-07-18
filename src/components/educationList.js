@@ -15,6 +15,7 @@ const educationList = props => {
                         for presentation of Digital Economy concept with working model.
                     </div>
                 </Education>
+                <hr/>
                 <Education education={educationData[1]}>
                     <ul className={`list-unstyled text-justify`}>
                         <li>- Attended Courses on Artificial Intelligence, Cryptography, Distributed systems,
