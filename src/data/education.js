@@ -5,7 +5,7 @@ const education = [
         specialization: 'Computer Sc. & Engg.',
         startDate: '2005',
         endDate: '2009',
-        icon: 'dce.png',
+        icon: 'bhu.png',
         showLine: true
     },
     {
@@ -14,7 +14,7 @@ const education = [
         specialization: 'Software Engg.',
         startDate: '2012',
         endDate: '2014',
-        icon: 'bhu.png',
+        icon: 'dce.png',
         showLine: false
     }
 ];
