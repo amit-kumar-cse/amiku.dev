@@ -14,8 +14,7 @@ const aboutMe = props => {
 
                     <ul className={commonClasses.listStyle}>
                         <li>Proficient in React/Angular web development ecosystem.</li>
-                        <li>Proficient in server-side technologies like Java-Spring Ecosystem, Object Oriented
-                            Design.</li>
+                        <li>Proficient in server-side technologies like Java, Spring, Object Oriented Design.</li>
                         <li>Hands-on experience in AWS, Relational and NoSQL Databases.</li>
                         <li>Expert at data structure and algorithms, clean and performant system design.</li>
                     </ul>
