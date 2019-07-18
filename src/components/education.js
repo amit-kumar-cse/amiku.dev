@@ -30,11 +30,11 @@ class Education extends Component {
 
     render() {
         return (
-            <div className='row'>
+            <div className='row no-gutters'>
                 <div className={`col-12 col-sm-2 ${classes.companyIcon}`}>
-                    <img src={'./images/' + this.props.education.icon} className='pb-3' alt={this.props.education.firm}/>
+                    <img src={'./images/' + this.props.education.icon} className='mt-2 mb-2' alt={this.props.education.firm}/>
                 </div>
-                <div className={`${classes.fontsSize} col-12 col-sm-10`}>
+                <div className={`${classes.fontsSize} col-12 col-sm-10 pl-3`}>
                     <div className='text-dark mb-1 font-weight-bolder'>{this.props.education.college}</div>
                     <div className='text-dark font-weight-bold'>
                         {this.props.education.degree +', ' + this.props.education.specialization}
@@ -42,6 +42,7 @@ class Education extends Component {
                     <div className='text-secondary'>
                         {this.props.education.startDate} - {this.props.education.endDate}
                     </div>
+                    <hr/>
                     {this.props.children}
 
                     {this.props.education.showLine? (<hr/>): null}

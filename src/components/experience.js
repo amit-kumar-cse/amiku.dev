@@ -6,20 +6,26 @@ import classes from './details.module.scss';
 class Experience extends Component {
     render() {
         return (
-            <div className='row'>
+            <div className='row no-gutters'>
                 <div className={`col-12 col-sm-2 ${classes.companyIcon}`}>
-                    <img src={'./images/' + this.props.experience.icon} className={`pb-3`} alt={this.props.experience.firm}/>
+                    <img src={'./images/' + this.props.experience.icon} className='mb-2 mt-2' alt={this.props.experience.firm}/>
                 </div>
-                <div className={`${classes.fontsSize} col-12 col-sm-10`}>
-                    <div className='text-dark mb-1 font-weight-bolder'>{this.props.experience.position}</div>
-                    <div className='text-dark font-weight-bold'>{this.props.experience.firm}</div>
+                <div className={`${classes.fontsSize} col-12 col-sm-10 pl-3`}>
+                    <div className='text-dark font-weight-bolder mb-1'>{this.props.experience.firm}</div>
+                    <div className='mb-1'>
+                        <span className='text-dark font-weight-bold'>{this.props.experience.position}</span>
+                        &nbsp;&nbsp;
+                        <span>{this.props.experience.location}</span>
+                    </div>
+
                     <div className='text-secondary'>
-                        {this.props.experience.startDate} - {this.props.experience.endDate} . &nbsp;
+                        {this.props.experience.startDate} - {this.props.experience.endDate} : &nbsp;
                         {this.props.experience.period}
                     </div>
-                    <div className='text-secondary'>
-                        {this.props.experience.location}
-                    </div>
+                    {/*<div className='text-secondary'>*/}
+                    {/*    {this.props.experience.location}*/}
+                    {/*</div>*/}
+                    <hr/>
                     {this.props.children}
 
                     {this.props.experience.showLine? (<hr/>): null}

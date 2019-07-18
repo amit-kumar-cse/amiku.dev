@@ -13,9 +13,6 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
-
-
-
     return (
         <div className={`container-fluid ${classes.App}`}>
             <div className='rounded-lg shadow'>
