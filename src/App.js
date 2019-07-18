@@ -19,7 +19,7 @@ function App() {
     return (
         <div className={`container-fluid ${classes.App}`}>
             <div className={classes.bgImageContainer}>
-                <img src='./images/bg.jpg' alt={'Background'}/>
+                <img src='./images/code-coding-data-574073.jpg' alt={'Background'}/>
             </div>
 
             <div className='jumbotron text-center position-relative mb-4'>
