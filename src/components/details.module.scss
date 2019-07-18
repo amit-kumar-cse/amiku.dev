@@ -1,0 +1,48 @@
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+@include media-breakpoint-only(xs) {
+  .fontsSize {
+    font-size: 30px !important;
+  }
+}
+
+@include media-breakpoint-only(sm) {
+  .fontsSize {
+    font-size: 24px !important;
+  }
+}
+
+@include media-breakpoint-only(md) {
+  .fontsSize {
+    font-size: 4vmin !important;
+  }
+}
+
+
+@include media-breakpoint-only(lg) {
+  .fontsSize {
+    font-size: 14px !important;
+  }
+}
+
+@include media-breakpoint-only(xl) {
+  .fontsSize {
+    font-size: 15px !important;
+  }
+}
+
+.companyIcon {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.companyIcon img {
+  width: 100%;
+  max-width: 90px;
+  margin-left: 5px;
+}
+
+

@@ -1,11 +1,12 @@
 import React from 'react';
 import commonClasses from "./commons.module.scss";
+import classes from "./details.module.scss";
 
 const aboutMe = props => {
     return (
         <div className={`card text-secondary ${commonClasses.detailSection} shadow mb-4`}>
-            <div className="card-body text-left">
-                <h4 className="card-title text-primary">About</h4>
+            <div className={`${classes.fontsSize} card-body text-left`}>
+                <h1 className="card-title text-primary">About</h1>
                 {/*<hr/>*/}
                 <div>
                     <p>Software professional with 5.5 years of experience in full-stack system design and software

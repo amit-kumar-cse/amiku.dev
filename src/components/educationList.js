@@ -7,7 +7,7 @@ const educationList = props => {
     return (
         <div className={`card text-secondary ${commonClasses.detailSection} mb-4 shadow`}>
             <div className="card-body text-left">
-                <h4 className="card-title text-primary">Education</h4>
+                <h1 className="card-title text-primary">Education</h1>
                 <hr/>
                 <Education education={educationData[0]}>
                     <div>Rewarded with Best innovation prize in Annual National technical festival (technex '07)

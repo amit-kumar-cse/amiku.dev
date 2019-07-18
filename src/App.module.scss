@@ -5,6 +5,7 @@
 .App {
   text-align: center;
   min-width: 500px;
+  margin-top: 20px;
 }
 
 //photo
@@ -20,18 +21,28 @@
   .photo {
     border: 2px solid white;
   }
+
+  //.title {
+  //  font-size: 32px !important;
+  //}
 }
 
 @include media-breakpoint-between(sm, md) {
   .photo {
     border: 3px solid white;
   }
+  //.title {
+  //  font-size: 26px !important;
+  //}
 }
 
 @include media-breakpoint-between(lg, xl) {
   .photo {
     border: 4px solid white;
   }
+  //.title {
+  //  font-size: 32px !important;
+  //}
 }
 
 .bgImageContainer {
