@@ -11,15 +11,15 @@ const educationList = props => {
             </div>
             <div className="card-body text-left">
                 <Education education={educationData[0]}>
-                    <div>Rewarded with Best innovation prize in Annual National technical festival (technex '07)
+                    <div className='text-justify'>Rewarded with Best innovation prize in Annual National technical festival (technex '07)
                         for presentation of Digital Economy concept with working model.
                     </div>
                 </Education>
                 <Education education={educationData[1]}>
-                    <div>
+                    <div className={`text-justify`}>
                         Attended Courses on Artificial Intelligence, Cryptography, Distributed systems,
                         Software engineering best practices.
-                        Also grabbed excellent grip on data structures, algorithms and Core Java.
+                        Grabbed excellent grip on data structures, algorithms and Core Java.
                     </div>
                 </Education>
 

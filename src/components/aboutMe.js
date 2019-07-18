@@ -10,7 +10,7 @@ const aboutMe = props => {
             <div className={`${classes.fontsSize} card-body text-left`}>
 
                 {/*<hr/>*/}
-                <div>
+                <div className='text-justify'>
                     <p>Software professional with close to 6 years of experience in system design and
                         development across Banking and Advertising domains at Amazon, Morgan Stanley and Adobe.</p>
 
