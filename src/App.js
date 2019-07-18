@@ -18,17 +18,20 @@ function App() {
 
     return (
         <div className={`container-fluid ${classes.App}`}>
-            <div className={classes.bgImageContainer}>
-                <img src='./images/code-coding-data-574073.jpg' alt={'Background'}/>
+            <div className='rounded-lg shadow'>
+                <div className={classes.bgImageContainer}>
+                    <img src='./images/code-coding-data-574073.jpg' alt={'Background'}/>
+                </div>
+
+                <div className={`jumbotron text-center position-relative mb-5 ${classes.headlineBox}`}>
+                    <img src='./images/amit-kumar.jpg' className={`${classes.photo} rounded-circle img-fluid shadow-lg`}
+                         alt={'Amit Kumar'}/>
+                    <h1 className={`text-primary ${classes.title}`}>Amit Kumar</h1>
+                    <h3 className='text-secondary'>Full Stack Software Professional</h3>
+                    <h3 className='text-secondary'>React | Java | AWS</h3>
+                </div>
             </div>
 
-            <div className={`jumbotron text-center position-relative mb-5 ${classes.headlineBox}`}>
-                <img src='./images/amit-kumar.jpg' className={`${classes.photo} rounded-circle img-fluid shadow-lg`}
-                     alt={'Amit Kumar'}/>
-                <h1 className={`text-primary ${classes.title}`}>Amit Kumar</h1>
-                <h3 className='text-secondary'>Full Stack Software Professional</h3>
-                <h3 className='text-secondary'>React | Java | AWS</h3>
-            </div>
 
             {/*body*/}
             <div className={classes.detailsContainer}>
