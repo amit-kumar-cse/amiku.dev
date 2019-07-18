@@ -22,7 +22,7 @@ function App() {
                 <img src='./images/code-coding-data-574073.jpg' alt={'Background'}/>
             </div>
 
-            <div className='jumbotron text-center position-relative mb-4'>
+            <div className={`jumbotron text-center position-relative mb-4 ${classes.headlineBox}`}>
                 <img src='./images/amit-kumar.jpg' className={`${classes.photo} rounded-circle img-fluid shadow-lg`}
                      alt={'Amit Kumar'}/>
                 <h1 className={`text-primary ${classes.title}`}>Amit Kumar</h1>
