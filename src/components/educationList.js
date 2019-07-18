@@ -7,9 +7,9 @@ const educationList = props => {
     return (
         <div className={`card text-secondary ${classes.detailSection} mb-5 shadow`}>
             <div className={`card-header ${classes.myCardHeader}`}>
-                <h2 className="text-secondary">Education</h2>
+                <h1 className="text-secondary">Education</h1>
             </div>
-            <div className="card-body text-left">
+            <div className={`card-body text-left ${classes.cardBody}`}>
                 <Education education={educationData[0]}>
                     <div className='text-justify'>Rewarded with Best innovation prize in Annual National technical festival (technex '07)
                         for presentation of Digital Economy concept with working model.

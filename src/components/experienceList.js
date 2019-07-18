@@ -9,9 +9,9 @@ const experienceList = props => {
     return (
         <div className={`card text-secondary ${classes.detailSection} shadow mb-5`}>
             <div className={`card-header ${classes.myCardHeader}`}>
-                <h2 className="card-title text-secondary">Experience</h2>
+                <h1 className="card-title text-secondary">Experience</h1>
             </div>
-            <div className="card-body text-left">
+            <div className={`card-body text-left ${classes.cardBody}`}>
                 <Experience experience={experienceData[0]}>
                     <div className='pt-3 text-justify'>Working for Amazon advertisement design services platform. Our application is a full
                         stack application which provides raw assets and final creative spec exchange,
