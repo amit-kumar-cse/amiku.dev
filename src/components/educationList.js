@@ -16,15 +16,11 @@ const educationList = props => {
                     </div>
                 </Education>
                 <Education education={educationData[1]}>
-                    <div className={`text-justify`}>
-                        <p>
-                            - Attended Courses on Artificial Intelligence, Cryptography, Distributed systems,
-                            Software engineering best practices.
-                        </p>
-                        <p>
-                            - Grabbed excellent grip on data structures, algorithms and Core Java.
-                        </p>
-                    </div>
+                    <ul className={`list-unstyled text-justify`}>
+                        <li>- Attended Courses on Artificial Intelligence, Cryptography, Distributed systems,
+                            Software engineering best practices.</li>
+                        <li>- Grabbed excellent grip on data structures, algorithms and Core Java.</li>
+                    </ul>
                 </Education>
 
             </div>
