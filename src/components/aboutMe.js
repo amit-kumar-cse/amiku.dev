@@ -4,9 +4,12 @@ import classes from "./details.module.scss";
 
 const aboutMe = props => {
     return (
-        <div className={`card text-secondary ${commonClasses.detailSection} shadow mb-4`}>
+        <div className={`card text-secondary ${commonClasses.detailSection} shadow mb-5`}>
+            <div className='card-header'>
+                <h2 className="card-title text-secondary">About Me</h2>
+            </div>
             <div className={`${classes.fontsSize} card-body text-left`}>
-                <h1 className="card-title text-primary">About</h1>
+
                 {/*<hr/>*/}
                 <div>
                     <p>Software professional with close to 6 years of experience in system design and

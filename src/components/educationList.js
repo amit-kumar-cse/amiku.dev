@@ -5,10 +5,11 @@ import commonClasses from './commons.module.scss';
 
 const educationList = props => {
     return (
-        <div className={`card text-secondary ${commonClasses.detailSection} mb-4 shadow`}>
+        <div className={`card text-secondary ${commonClasses.detailSection} mb-5 shadow`}>
+            <div className='card-header'>
+                <h2 className="card-title text-secondary">Education</h2>
+            </div>
             <div className="card-body text-left">
-                <h1 className="card-title text-primary">Education</h1>
-                <hr/>
                 <Education education={educationData[0]}>
                     <div>Rewarded with Best innovation prize in Annual National technical festival (technex '07)
                         for presentation of Digital Economy concept with working model.

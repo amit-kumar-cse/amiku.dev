@@ -7,10 +7,11 @@ import experienceData from '../data/experience';
 
 const experienceList = props => {
     return (
-        <div className={`card text-secondary ${commonClasses.detailSection} shadow mb-4`}>
+        <div className={`card text-secondary ${commonClasses.detailSection} shadow mb-5`}>
+            <div className='card-header'>
+                <h2 className="card-title text-secondary">Experience</h2>
+            </div>
             <div className="card-body text-left">
-                <h1 className="card-title text-primary">Experience</h1>
-                <hr/>
                 <Experience experience={experienceData[0]}>
                     <div className='pt-3'>Working for Amazon advertisement design services platform. Our application is a full
                         stack application which provides raw assets and final creative spec exchange,
