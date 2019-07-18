@@ -1,14 +1,14 @@
 import React from 'react';
 import Experience from "./experience";
 
-import commonClasses from './commons.module.scss';
+import classes from './details.module.scss';
 
 import experienceData from '../data/experience';
 
 const experienceList = props => {
     return (
-        <div className={`card text-secondary ${commonClasses.detailSection} shadow mb-5`}>
-            <div className='card-header'>
+        <div className={`card text-secondary ${classes.detailSection} shadow mb-5`}>
+            <div className={`card-header ${classes.myCardHeader}`}>
                 <h2 className="card-title text-secondary">Experience</h2>
             </div>
             <div className="card-body text-left">

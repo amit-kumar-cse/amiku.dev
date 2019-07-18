@@ -1,13 +1,13 @@
 import React from 'react';
 import Education from "./education";
 import educationData from "../data/education";
-import commonClasses from './commons.module.scss';
+import classes from './details.module.scss';
 
 const educationList = props => {
     return (
-        <div className={`card text-secondary ${commonClasses.detailSection} mb-5 shadow`}>
-            <div className='card-header'>
-                <h2 className="card-title text-secondary">Education</h2>
+        <div className={`card text-secondary ${classes.detailSection} mb-5 shadow`}>
+            <div className={`card-header ${classes.myCardHeader}`}>
+                <h2 className="text-secondary">Education</h2>
             </div>
             <div className="card-body text-left">
                 <Education education={educationData[0]}>
