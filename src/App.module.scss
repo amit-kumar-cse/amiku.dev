@@ -18,6 +18,10 @@
   min-width: 120px !important;
 }
 
+.title {
+  text-shadow: 0px 0px 4px gray;
+}
+
 @include media-breakpoint-only(xs) {
   .photo {
     border: 2px solid white;
@@ -50,7 +54,7 @@
   display: block;
   width: 100%;
   overflow-y: hidden;
-  height: 35vw;
+  height: 42vw;
   max-height: 450px;
 
   img {
