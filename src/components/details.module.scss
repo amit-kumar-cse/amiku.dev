@@ -4,32 +4,32 @@
 
 @include media-breakpoint-only(xs) {
   .fontsSize {
-    font-size: 32px !important;
+    font-size: 30px !important;
   }
 }
 
 @include media-breakpoint-only(sm) {
   .fontsSize {
-    font-size: 32px !important;
+    font-size: 24px !important;
   }
 }
 
 @include media-breakpoint-only(md) {
   .fontsSize {
-    font-size: 32px !important;
+    font-size: 24px !important;
   }
 }
 
 
 @include media-breakpoint-only(lg) {
   .fontsSize {
-    font-size: 21px !important;
+    font-size: 14px !important;
   }
 }
 
 @include media-breakpoint-only(xl) {
   .fontsSize {
-    font-size: 18px !important;
+    font-size: 15px !important;
   }
 }
 
