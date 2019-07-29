@@ -6,6 +6,7 @@ Vital
 
 Essential
 - Deploy your website to http://amitkumar.pro
+- enable https to your website
 
 
 Desirable
