@@ -15,7 +15,7 @@ function App() {
 
     return (
         <div className={`container-fluid ${classes.App}`}>
-            <div className='rounded-lg shadow'>
+            <div className='rounded-lg shadow-lg'>
                 <div className={classes.bgImageContainer}>
                     <img src='./images/code-coding-data-574073.jpg' alt={'Background'}/>
                 </div>
@@ -24,8 +24,8 @@ function App() {
                     <img src='./images/amit-kumar.jpg' className={`${classes.photo} rounded-circle img-fluid shadow-lg`}
                          alt={'Amit Kumar'}/>
                     <h1 className={`text-primary ${classes.title}`}>Amit Kumar</h1>
-                    <h3 className='text-secondary'>Full Stack Software Professional</h3>
-                    <h3 className='text-secondary'>React | Java | AWS</h3>
+                    <h4 className={`text-secondary ${classes.shadow}`}>Full Stack Software Professional</h4>
+                    <h4 className={`text-secondary ${classes.shadow}`}>React | Java | AWS</h4>
                 </div>
             </div>
 
