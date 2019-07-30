@@ -2,9 +2,13 @@
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 
+html{
+  font-size: 16px;
+}
+
 .App {
   text-align: center;
-  min-width: 500px;
+  width: 100%;
   margin-top: 20px;
   font-family: Roboto, sans-serif;
 }
@@ -12,10 +16,11 @@
 //photo
 .photo {
   position: absolute;
-  width: 18vw !important;
-  left: 3vw !important;
-  top: -16vw !important;
+  width:17vw !important;
+  left: 0px !important;
+  bottom: 0px !important;
   min-width: 120px !important;
+  border-radius: 7px;
 }
 
 .title {
@@ -60,7 +65,7 @@
   overflow-y: hidden;
   height: 42vw;
   max-height: 450px;
-
+  position: relative;
   img {
     width: 100%;
   }

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "http://amitkumar.pro.s3-website.ap-south-1.amazonaws.com/",
+  "qa": "http://test.amitkumar.pro.s3-website.ap-south-1.amazonaws.com/",
   "dependencies": {
     "@material-ui/core": "^4.2.0",
     "@material-ui/icons": "^4.2.1",

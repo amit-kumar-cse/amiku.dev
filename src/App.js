@@ -18,14 +18,15 @@ function App() {
             <div className='rounded-lg shadow-lg'>
                 <div className={classes.bgImageContainer}>
                     <img src='./images/code-coding-data-574073.jpg' alt={'Background'}/>
+                    <img src='./images/amit-kumar.jpg' className={`${classes.photo} img-fluid shadow-lg`}
+                         alt={'Amit Kumar'}/>
                 </div>
 
                 <div className={`jumbotron text-center position-relative mb-5 ${classes.headlineBox}`}>
-                    <img src='./images/amit-kumar.jpg' className={`${classes.photo} rounded-circle img-fluid shadow-lg`}
-                         alt={'Amit Kumar'}/>
-                    <h1 className={`text-primary ${classes.title}`}>Amit Kumar</h1>
-                    <h4 className={`text-secondary ${classes.shadow}`}>Full Stack Software Professional</h4>
-                    <h4 className={`text-secondary ${classes.shadow}`}>React | Java | AWS</h4>
+
+                    <h2 className={`text-primary ${classes.title}`}>Amit Kumar</h2>
+                    <h5 className={`text-secondary ${classes.shadow}`}>Full Stack Software Professional</h5>
+                    <h5 className={`text-secondary ${classes.shadow}`}>React | Java | AWS</h5>
                 </div>
             </div>
 
