@@ -59,11 +59,11 @@ function App() {
             </div>
 
 
-            <footer className='card-footer'>
+            <footer className={classes.footer}>
                 <div>
-                    <FaGithub onClick={navigateToGithub} size={30} className={`${classes.icon} mr-3`}/>
-                    <FaLinkedin onClick={navigateToLinkedin} size={30} className={`${classes.icon} mr-3`}/>
-                    <FaTwitter onClick={navigateToTwitter} size={30} className={`${classes.icon} mr-3`}/>
+                    <FaGithub onClick={navigateToGithub} size={30} className={`${classes.icon} mr-4`}/>
+                    <FaLinkedin onClick={navigateToLinkedin} size={30} className={`${classes.icon} mr-4`}/>
+                    <FaTwitter onClick={navigateToTwitter} size={30} className={`${classes.icon} mr-4`}/>
                     <MdMail onClick={sendEmail} size={30} className={`${classes.icon}`}/>
                 </div>
             </footer>

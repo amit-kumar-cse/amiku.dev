@@ -1,11 +1,16 @@
 Vital
-- smart typography. https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
+- smart typography. 
+    - https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
 - add skill sets 
     - ideas
         - No. 3 on this article https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
-- i would rather. https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
-- add tabs for experience, education and about me.
-- Fill up the FIIT-JEE gap in your resume.
+- i would rather section. 
+    - https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
+- tabs
+    - add tabs for experience, education and about me.
+- Add FIIT-JEE
+- Emphsize on footer by better colors
+
 
 Essential
 - Deploy your website to http://amitkumar.pro

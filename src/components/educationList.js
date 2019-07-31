@@ -5,7 +5,7 @@ import classes from './details.module.scss';
 
 const educationList = props => {
     return (
-        <div className={`card text-secondary ${classes.detailSection} mb-2 shadow`}>
+        <div className={`card text-secondary ${classes.detailSection} mb-5 shadow`}>
             <div className={`card-header ${classes.myCardHeader}`}>
                 <h3 className={`card-title ${classes.textShadow} ${classes.gray}`}>Education</h3>
             </div>

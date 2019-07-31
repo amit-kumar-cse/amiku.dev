@@ -89,5 +89,17 @@ html{
 
 .icon {
   cursor: pointer;
-  color: #eee;
+  //color: #fff;
+  color: white;
+}
+
+.footer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(230, 230, 230, .3);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
 }
