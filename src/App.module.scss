@@ -10,7 +10,8 @@ html{
   text-align: center;
   width: 100%;
   font-family: Roboto, sans-serif;
-  background-image: url("images/bg-6.jpeg");
+  background-image: url("images/bg-9.jpeg");
+  //background-position: ;
 }
 
 //photo
@@ -90,7 +91,7 @@ html{
 .icon {
   cursor: pointer;
   //color: #fff;
-  color: white;
+  color: gray;
 }
 
 .footer {
@@ -98,7 +99,8 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(230, 230, 230, .3);
+  background-color: rgba(245, 245, 245, .8);
+  //background-color: whitesmoke;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 

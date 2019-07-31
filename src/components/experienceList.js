@@ -7,7 +7,7 @@ import experienceData from '../data/experience';
 
 const experienceList = props => {
     return (
-        <div className={`card text-secondary ${classes.detailSection} shadow mb-5`}>
+        <div className={`card text-secondary ${classes.detailSection} shadow mb-4`}>
             <div className={`card-header ${classes.myCardHeader}`}>
                 <h3 className={`card-title ${classes.textShadow} ${classes.gray}`}>Experience</h3>
             </div>
