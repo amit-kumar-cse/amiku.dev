@@ -74,8 +74,16 @@
   justify-content: center;
 }
 
-.cardBody {
-  padding: 20px 24px !important;
+@include media-breakpoint-between(xs, md) {
+  .cardBody {
+    padding: 18px 24px 6px 24px !important;
+  }
+}
+
+@include media-breakpoint-between(lg, xl) {
+  .cardBody {
+    padding: 22px 32px 10px 32px !important;
+  }
 }
 
 .textShadow {

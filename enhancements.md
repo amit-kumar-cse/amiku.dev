@@ -13,6 +13,7 @@ Vital
 - randomly selected background and cover photo 
 - increase the initial render speed by cloud-front deployments.
 - convert avenger icon to dark green favicon
+- when your page loads, there is a flicker, have a spinner at the beginning and show the page only after everything is set up. The initial spinner should be very engaging.
 
 
 Essential
