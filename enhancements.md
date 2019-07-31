@@ -1,6 +1,5 @@
 Vital
 - add skills set
-- add a footer with links to linkedin, twitter and github.
 - add tabs for experience, education and about me.
 - Fill up the FIIT-JEE gap in your resume.
 

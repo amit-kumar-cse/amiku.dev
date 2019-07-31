@@ -5,13 +5,33 @@ import AboutMe from './components/aboutMe';
 import EducationList from './components/educationList';
 import ExperienceList from './components/experienceList';
 
-// import {FaGithub} from 'react-icons/fa';
+import {FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa';
+import {MdMail} from 'react-icons/md';
 
 // import $ from 'jquery';
 // import Popper from 'popper.js';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
+    let navigateToGithub = () => {
+        window.open('https://github.com/amit1702');
+    };
+
+    let navigateToLinkedin = () => {
+        window.open('https://www.linkedin.com/in/amitkumar-iitbhu/');
+    };
+
+    let navigateToTwitter = () => {
+        if(window.innerWidth > 800) {
+            window.open('https://twitter.com/amit1702');
+        } else {
+            window.open('https://mobile.twitter.com/amit1702');
+        }
+    };
+
+    let sendEmail = () => {
+        window.open('mailto:me@amitkumar.pro');
+    };
 
     return (
         <div className={`container-fluid ${classes.App}`}>
@@ -41,7 +61,10 @@ function App() {
 
             <footer className='card-footer'>
                 <div>
-                    {/*<FaGithub/>*/}
+                    <FaGithub onClick={navigateToGithub} size={30} className={`${classes.icon} mr-3`}/>
+                    <FaLinkedin onClick={navigateToLinkedin} size={30} className={`${classes.icon} mr-3`}/>
+                    <FaTwitter onClick={navigateToTwitter} size={30} className={`${classes.icon} mr-3`}/>
+                    <MdMail onClick={sendEmail} size={30} className={`${classes.icon}`}/>
                 </div>
             </footer>
         </div>
