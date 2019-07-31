@@ -3,13 +3,16 @@ Vital
     - https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
 - add skill sets 
     - ideas
+        - amazing http://bl.ocks.org/wizicer/f662a0b04425fc0f7489
         - No. 3 on this article https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
 - i would rather section. 
     - https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
 - tabs
     - add tabs for experience, education and about me.
 - Add FIIT-JEE
-- Emphsize on footer by better colors
+- randomly selected background and cover photo 
+- increase the initial render speed by cloud-front deployments.
+- convert avenger icon to dark green favicon
 
 
 Essential
@@ -26,4 +29,5 @@ Desirable
 POC
 - implement login functionality
 - every time some one opens my website, throw a mail to myself that someone has visited my website.
+- make my app installable by progressive web app menifest file.
 
