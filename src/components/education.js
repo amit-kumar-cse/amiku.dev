@@ -35,8 +35,8 @@ class Education extends Component {
                     <img src={'./images/' + this.props.education.icon} className='mt-2 mb-2' alt={this.props.education.firm}/>
                 </div>
                 <div className={`${classes.fontsSize} col-12 col-sm-10 pl-3`}>
-                    <div className='text-dark mb-1 font-weight-bolder'>{this.props.education.college}</div>
-                    <div className='text-dark font-weight-bold'>
+                    <div className={`${classes.gray} mb-1 font-weight-bolder`}>{this.props.education.college}</div>
+                    <div className={`${classes.gray} font-weight-bold`}>
                         {this.props.education.degree +', ' + this.props.education.specialization}
                     </div>
                     <div className='text-secondary'>

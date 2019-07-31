@@ -16,4 +16,5 @@ Desirable
 
 POC
 - implement login functionality
+- every time some one opens my website, throw a mail to myself that someone has visited my website.
 

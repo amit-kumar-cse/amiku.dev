@@ -11,9 +11,9 @@ class Experience extends Component {
                     <img src={'./images/' + this.props.experience.icon} className='mb-2 mt-2' alt={this.props.experience.firm}/>
                 </div>
                 <div className={`${classes.fontsSize} col-12 col-sm-10 pl-3`}>
-                    <div className='text-dark font-weight-bolder mb-1'>{this.props.experience.firm}</div>
+                    <div className={`${classes.gray} mb-1 font-weight-bolder`}>{this.props.experience.firm}</div>
                     <div className='mb-1'>
-                        <span className='text-dark font-weight-bold'>{this.props.experience.position}</span>
+                        <span className={`${classes.gray} font-weight-bold`}>{this.props.experience.position}</span>
                         &nbsp;&nbsp;
                         <span>{this.props.experience.location}</span>
                     </div>

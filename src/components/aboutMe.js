@@ -5,7 +5,7 @@ const aboutMe = props => {
     return (
         <div className={`card text-secondary ${classes.detailSection} shadow mb-5`}>
             <div className={`card-header ${classes.myCardHeader}`}>
-                <h3 className={`card-title text-secondary ${classes.textShadow}`}>About Me</h3>
+                <h3 className={`card-title ${classes.textShadow} ${classes.gray}`}>About Me</h3>
             </div>
             <div className={`${classes.fontsSize} ${classes.cardBody} card-body text-left`}>
 
