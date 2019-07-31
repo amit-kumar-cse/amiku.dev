@@ -1,4 +1,15 @@
-Vital
+Vital (Minimum lovable website)
+- Add FIIT-JEE
+- page load
+    - increase the initial render speed by cloud-front deployments.
+    - when your page loads, there is a flicker, have a spinner at the beginning and show the page only after everything is set up. The initial spinner should be very engaging.
+- color of Amit Kumar head tag needs to be improved.
+- Adjust size of jumbotron for mobile layout
+
+
+Essential 
+- convert avenger icon to dark green favicon
+- randomly selected background and cover photo 
 - smart typography. 
     - https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
 - add skill sets 
@@ -9,16 +20,9 @@ Vital
     - https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
 - tabs
     - add tabs for experience, education and about me.
-- Add FIIT-JEE
-- randomly selected background and cover photo 
-- increase the initial render speed by cloud-front deployments.
-- convert avenger icon to dark green favicon
-- when your page loads, there is a flicker, have a spinner at the beginning and show the page only after everything is set up. The initial spinner should be very engaging.
-
-
-Essential
 - Deploy your website to http://amitkumar.pro
 - enable https to your website
+- Enhanced bullet points.
 
 
 Desirable
