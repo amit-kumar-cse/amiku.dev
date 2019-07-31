@@ -1,5 +1,9 @@
 Vital
-- add skills set
+- smart typography. https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
+- add skill sets 
+    - ideas
+        - No. 3 on this article https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
+- i would rather. https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
 - add tabs for experience, education and about me.
 - Fill up the FIIT-JEE gap in your resume.
 
