@@ -1,7 +1,5 @@
 Vital (Minimum lovable website)
-- Add FIIT-JEE
 - page load
-    - increase the initial render speed by cloud-front deployments.
     - when your page loads, there is a flicker, have a spinner at the beginning and show the page only after everything is set up. The initial spinner should be very engaging.
 - color of Amit Kumar head tag needs to be improved.
 - Adjust size of jumbotron for mobile layout
@@ -23,6 +21,7 @@ Essential
 - Deploy your website to http://amitkumar.pro
 - enable https to your website
 - Enhanced bullet points.
+- on lg and xl screens, my intro should take up all of the initial viewport
 
 
 Desirable
