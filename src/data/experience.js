@@ -20,6 +20,16 @@ const experiences = [
         showLine: true
     },
     {
+        'firm': 'FIIT JEE',
+        'position': 'Assistant Professor for Maths',
+        'startDate': 'Jan/10',
+        'endDate': 'Dec/11',
+        'period': '2 years',
+        'location': 'Delhi, India',
+        'icon': 'fiitjee.png',
+        showLine: true
+    },
+    {
         'firm': 'Adobe',
         'position': 'Member of Technical staff',
         'startDate': 'May/09',

@@ -36,6 +36,14 @@ const experienceList = props => {
                 <hr/>
 
                 <Experience experience={experienceData[2]}>
+                    <ul className={`list-unstyled text-justify`}>
+                        <li>- Training IIT aspirants for Advanced mathematics, Calculus, Higher Algebra, 2D & 3D Geometry.</li>
+                        <li>- Study material preparation, student councelling.</li>
+                    </ul>
+                </Experience>
+                <hr/>
+
+                <Experience experience={experienceData[3]}>
                     <ul className='list-unstyled text-justify'>
                         <li>- Automated the mechanism to add peer review comments on violation of Adobe code policy against new perforce check- ins through the implementation of wrapper over code collaborator API</li>
                         <li>- Developed and deployed a Bugbot using Perl for collecting unallocated bugs for a particular project and reporting to management</li>
