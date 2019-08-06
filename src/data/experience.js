@@ -4,7 +4,7 @@ const experiences = [
         'position': 'SDE-2',
         'startDate': 'Oct/18',
         'endDate': 'Present',
-        'period': '10 months',
+        'period': '11 months',
         'location': 'Bangaluru, India',
         'icon': 'amazon.png',
         showLine: true
