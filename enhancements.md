@@ -1,6 +1,4 @@
 Vital (Minimum lovable website)
-- page load
-    - when your page loads, there is a flicker, have a spinner at the beginning and show the page only after everything is set up. The initial spinner should be very engaging.
 - color of Amit Kumar head tag needs to be improved.
 - Adjust size of jumbotron for mobile layout
 
@@ -18,10 +16,11 @@ Essential
     - https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
 - tabs
     - add tabs for experience, education and about me.
-- Deploy your website to http://amitkumar.pro
-- enable https to your website
 - Enhanced bullet points.
 - on lg and xl screens, my intro should take up all of the initial viewport
+- sidebar drawer.
+- material design.
+- 
 
 
 Desirable

@@ -42,7 +42,7 @@ class Education extends Component {
                     <div className='text-secondary'>
                         {this.props.education.startDate} - {this.props.education.endDate}
                     </div>
-                    <hr/>
+                    <hr className={classes.lighterHr}/>
                     {this.props.children}
 
                     {/*{this.props.education.showLine? (<hr/>): null}*/}

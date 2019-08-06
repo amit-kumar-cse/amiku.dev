@@ -25,7 +25,7 @@ class Experience extends Component {
                     {/*<div className='text-secondary'>*/}
                     {/*    {this.props.experience.location}*/}
                     {/*</div>*/}
-                    <hr/>
+                    <hr className={classes.lighterHr}/>
                     {this.props.children}
 
                     {/*{this.props.experience.showLine? (<hr/>): null}*/}

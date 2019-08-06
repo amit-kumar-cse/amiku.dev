@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './App.module.scss';
+import './App.scss';
 
 import AboutMe from './components/aboutMe';
 import EducationList from './components/educationList';
@@ -44,7 +45,7 @@ function App() {
 
                 <div className={`jumbotron text-center position-relative mb-4 ${classes.headlineBox}`}>
 
-                    <h2 className={`text-primary ${classes.title}`}>Amit Kumar</h2>
+                    <h2 className={`${classes.title}`}>Amit Kumar</h2>
                     <h5 className={`text-secondary ${classes.shadow}`}>Full Stack Software Professional</h5>
                     <h5 className={`text-secondary ${classes.shadow}`}>React | Java | AWS</h5>
                 </div>
