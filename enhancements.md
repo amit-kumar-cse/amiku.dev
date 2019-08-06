@@ -2,7 +2,6 @@ Vital (Minimum lovable website)
 
 
 Essential 
-- convert avenger icon to dark green favicon
 - randomly selected background and cover photo 
 - smart typography. 
     - https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
@@ -16,16 +15,17 @@ Essential
     - add tabs for experience, education and about me.
 - Enhanced bullet points.
 - on lg and xl screens, my intro should take up all of the initial viewport
-- sidebar drawer.
-- material design.
-- 
+- sidebar drawer
+
 
 
 Desirable
+- convert avenger icon to dark green favicon
 - Add transferable skills https://www.wikijob.co.uk/content/interview-advice/competencies/transferable-skills
 - Add a visitor counter.
 - Add a google map showing my location.
 - Add a favicon icon for your page.
+- material design
 
 POC
 - implement login functionality

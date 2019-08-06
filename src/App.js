@@ -14,6 +14,9 @@ import {MdMail} from 'react-icons/md';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
+    const random = Math.floor(Math.random()*6);
+
+
     let navigateToGithub = () => {
         window.open('https://github.com/amit1702');
     };
@@ -34,8 +37,12 @@ function App() {
         window.open('mailto:me@amitkumar.pro');
     };
 
+    let style = {
+        'backgroundImage': `url('images/bg-${random}.jpeg')`
+    }
+
     return (
-        <div className={`container-fluid ${classes.App}`}>
+        <div className={`container-fluid ${classes.App}`} style={style}>
             <div className='rounded-lg shadow-lg'>
                 <div className={classes.bgImageContainer}>
                     <img src='./images/code-coding-data-574073.jpg' alt={'Background'}/>
