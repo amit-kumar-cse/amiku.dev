@@ -28,11 +28,13 @@ html{
 .title {
   text-shadow: 0px 0px 3px lightskyblue;
   color: #3D4053 !important;
+  font-size: 1.6rem !important;
 }
 
 .shadow {
   text-shadow: 0px 0px 3px lightskyblue;
   color: #3D4053 !important;
+  font-size: 1.15rem !important;
 }
 
 @include media-breakpoint-only(xs) {
@@ -82,7 +84,7 @@ html{
 }
 
 .headlineBox {
-  height: 165px;
+  height: 124px;
   display: flex;
   flex-direction: column;
   vertical-align: center;

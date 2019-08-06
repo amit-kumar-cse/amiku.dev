@@ -45,7 +45,7 @@ function App() {
 
                 <div className={`jumbotron text-center position-relative mb-4 ${classes.headlineBox}`}>
 
-                    <h2 className={`${classes.title}`}>Amit Kumar</h2>
+                    <h3 className={`${classes.title}`}>Amit Kumar</h3>
                     <h5 className={`text-secondary ${classes.shadow}`}>Full Stack Software Professional</h5>
                     <h5 className={`text-secondary ${classes.shadow}`}>React | Java | AWS</h5>
                 </div>

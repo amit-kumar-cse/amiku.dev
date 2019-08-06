@@ -9,7 +9,7 @@ const experienceList = props => {
     return (
         <div className={`card text-secondary ${classes.detailSection} shadow mb-4`}>
             <div className={`card-header ${classes.myCardHeader}`}>
-                <h3 className={`card-title ${classes.textShadow} ${classes.gray}`}>Experience</h3>
+                <h4 className={`card-title ${classes.textShadow} ${classes.gray}`}>Experience</h4>
             </div>
             <div className={`card-body text-left ${classes.cardBody}`}>
                 <Experience experience={experienceData[0]}>

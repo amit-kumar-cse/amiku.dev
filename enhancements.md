@@ -1,6 +1,4 @@
 Vital (Minimum lovable website)
-- color of Amit Kumar head tag needs to be improved.
-- Adjust size of jumbotron for mobile layout
 
 
 Essential 
