@@ -14,7 +14,7 @@ import {MdMail} from 'react-icons/md';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-    const random = Math.floor(Math.random()*6);
+    const random = Math.floor(Math.random()*5);
 
 
     let navigateToGithub = () => {

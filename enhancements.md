@@ -2,7 +2,6 @@ Vital (Minimum lovable website)
 
 
 Essential 
-- randomly selected background and cover photo 
 - smart typography. 
     - https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
 - add skill sets 
