@@ -2,20 +2,25 @@ Vital (Minimum lovable website)
 
 
 Essential 
-- smart typography. 
-    - https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
-- add skill sets 
-    - ideas
-        - amazing http://bl.ocks.org/wizicer/f662a0b04425fc0f7489
-        - No. 3 on this article https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
-- i would rather section. 
-    - https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
-- tabs
-    - add tabs for experience, education and about me.
-- Enhanced bullet points.
-- on lg and xl screens, my intro should take up all of the initial viewport
-- sidebar drawer
-
+- enhance
+    - Enhanced bullet points.
+    - on lg and xl screens, my intro should take up all of the initial viewport
+    - smart typography. 
+        - https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
+- develop
+    - add skill sets 
+        - ideas
+            - amazing http://bl.ocks.org/wizicer/f662a0b04425fc0f7489
+            - No. 3 on this article https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
+    - i would rather section. 
+        - https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
+    - tabs
+        - add tabs for
+            - experience
+            - education
+            - about me
+            - skill set
+        - sidebar drawer
 
 
 Desirable
