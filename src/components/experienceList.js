@@ -38,7 +38,7 @@ const experienceList = props => {
                 <Experience experience={experienceData[2]}>
                     <ul className={`list-unstyled text-justify`}>
                         <li>- Training IIT aspirants for Advanced mathematics, Calculus, Higher Algebra, 2D & 3D Geometry.</li>
-                        <li>- Study material preparation, student councelling.</li>
+                        <li>- Study material preparation, student counselling.</li>
                     </ul>
                 </Experience>
                 <hr/>
@@ -52,6 +52,6 @@ const experienceList = props => {
             </div>
         </div>
     )
-}
+};
 
 export default experienceList;
