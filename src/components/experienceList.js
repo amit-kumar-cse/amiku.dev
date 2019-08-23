@@ -38,7 +38,7 @@ const experienceList = props => {
                 <Experience experience={experienceData[2]}>
                     <ul className={`list-unstyled text-justify`}>
                         <li>- Training IIT aspirants for Advanced mathematics, Calculus, Higher Algebra, 2D & 3D Geometry.</li>
-                        <li>- Study material preparation, student counselling.</li>
+                        <li>- Study material preparation, student counse&shy;lling.</li>
                     </ul>
                 </Experience>
                 <hr/>
