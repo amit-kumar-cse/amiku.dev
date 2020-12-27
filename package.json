@@ -26,9 +26,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && aws s3 sync build/ s3://amitkumar.pro --acl public-read",
-    "qaDeploy": "npm run build && aws s3 sync build/ s3://test.amitkumar.pro --acl public-read",
-    "deployAll": "npm run build && aws s3 sync build/ s3://amitkumar.pro --acl public-read && aws s3 sync build/ s3://test.amitkumar.pro --acl public-read"
+    "deploy": "firebase deploy",
+    "deploy:qa": "firebase hosting:channel:deploy staging --expires 7d"
   },
   "eslintConfig": {
     "extends": "react-app"
