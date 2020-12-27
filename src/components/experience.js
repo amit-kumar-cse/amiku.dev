@@ -19,8 +19,7 @@ class Experience extends Component {
                     </div>
 
                     <div className='text-secondary'>
-                        {this.props.experience.startDate} - {this.props.experience.endDate} : &nbsp;
-                        {this.props.experience.period}
+                        {this.props.experience.startDate} - {this.props.experience.endDate}
                     </div>
                     {/*<div className='text-secondary'>*/}
                     {/*    {this.props.experience.location}*/}
