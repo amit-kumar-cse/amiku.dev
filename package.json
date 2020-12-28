@@ -5,21 +5,22 @@
   "homepage": "http://amitkumar.pro.s3-website.ap-south-1.amazonaws.com/",
   "qa": "http://test.amitkumar.pro.s3-website.ap-south-1.amazonaws.com/",
   "dependencies": {
-    "@material-ui/core": "^4.2.0",
-    "@material-ui/icons": "^4.2.1",
-    "bootstrap": "^4.3.1",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "bootstrap": "^4.5.3",
     "build": "^0.1.4",
-    "d3": "^5.9.7",
+    "d3": "^5.16.0",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
     "material-design-icons": "^3.0.1",
-    "popper.js": "^1.15.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-icons": "^3.7.0",
+    "popper.js": "^1.16.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-icons": "^3.11.0",
     "react-scripts": "3.0.1",
+    "react-skills": "^1.27.0",
     "run": "^1.4.0",
-    "styled-components": "^4.3.2"
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -45,7 +46,7 @@
     ]
   },
   "devDependencies": {
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.14.1",
     "prop-types": "^15.7.2"
   }
 }
