@@ -9,6 +9,7 @@ Essential
         - https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
 - develop
     - add skill sets 
+        - show skills with logos
         - ideas
             - amazing http://bl.ocks.org/wizicer/f662a0b04425fc0f7489
             - No. 3 on this article https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers
@@ -21,6 +22,8 @@ Essential
             - about me
             - skill set
         - sidebar drawer
+    - scrolling library
+        - https://locomotivemtl.github.io/locomotive-scroll/
 
 
 Desirable

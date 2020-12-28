@@ -6,6 +6,7 @@ import AboutMe from './components/aboutMe';
 import EducationList from './components/educationList';
 import ExperienceList from './components/experienceList';
 import {SkillSet} from "./components/skillSet";
+import MapComponent from "./components/googleMaps";
 
 import {FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa';
 import {MdMail} from 'react-icons/md';
@@ -73,6 +74,7 @@ class App extends React.Component {
                     <SkillSet/>
                     <ExperienceList/>
                     <EducationList/>
+                    <MapComponent isMarkerShown={true} />
                 </div>
 
 
