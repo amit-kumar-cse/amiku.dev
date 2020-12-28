@@ -11,7 +11,7 @@ const SkillSet = () => {
         </div>
         <div className={`${classes.fontsSize} ${classes.cardBody} card-body text-left`}>
 
-            <SkillBars skills={skillData} ></SkillBars>
+            <SkillBars skills={skillData}></SkillBars>
         </div>
     </div>
 }

@@ -11,12 +11,12 @@ const skillData = [
     },
     {
         name: 'Javascript',
-        level: 90,
+        level: 80,
         color: '#baed91 ',
     },
     {
         name: 'Typescript',
-        level: 85,
+        level: 90,
         color: '#b2cefe',
     },
     {
