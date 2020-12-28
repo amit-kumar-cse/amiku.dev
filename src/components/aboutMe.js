@@ -11,12 +11,11 @@ const aboutMe = props => {
 
                 {/*<hr/>*/}
                 <div className='text-justify'>
-                    <p>Software professional with close to 6 years of experience in system design and
-                        development across Banking and Advertising domains at Amazon, Morgan Stanley and Adobe.</p>
+                    <p>Software professional with 7 years of experience in Javascript frontends design and
+                        development at Amazon, GE Healthcare, Morgan Stanley and Adobe.</p>
 
                     <ul className={classes.listStyle}>
                         <li>Proficient in React/Angular web development ecosystem.</li>
-                        <li>Proficient in server-side technologies like Java, Spring, Object Oriented Design.</li>
                         <li>Hands-on experience in AWS, Relational and NoSQL Databases.</li>
                         <li>Expert at data structure and algorithms, clean and performant system design.</li>
                     </ul>

@@ -7,7 +7,7 @@ const SkillSet = () => {
     // return
     return <div className={`card text-secondary ${classes.detailSection} shadow mb-4`}>
         <div className={`card-header ${classes.myCardHeader}`}>
-            <h4 className={`card-title ${classes.textShadow} ${classes.gray}`}>Main Skills</h4>
+            <h4 className={`card-title ${classes.textShadow} ${classes.gray}`}>Key Skills</h4>
         </div>
         <div className={`${classes.fontsSize} ${classes.cardBody} card-body text-left`}>
 
