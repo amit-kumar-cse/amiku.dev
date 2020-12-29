@@ -2,7 +2,7 @@
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 
-html{
+html {
   font-size: 15px;
 }
 
@@ -17,7 +17,7 @@ html{
 //photo
 .photo {
   position: absolute;
-  width:17vw !important;
+  width: 17vw !important;
   left: 0px !important;
   bottom: 0px !important;
   min-width: 120px !important;
@@ -27,13 +27,13 @@ html{
 
 .title {
   text-shadow: 0px 0px 3px lightskyblue;
-  color: #3D4053 !important;
+  color: #3d4053 !important;
   font-size: 1.6rem !important;
 }
 
 .shadow {
   text-shadow: 0px 0px 3px lightskyblue;
-  color: #3D4053 !important;
+  color: #3d4053 !important;
   font-size: 1.15rem !important;
 }
 
@@ -112,9 +112,8 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(245, 245, 245, .8);
+  background-color: rgba(245, 245, 245, 0.8);
   //background-color: whitesmoke;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-
 }

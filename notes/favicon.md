@@ -1,2 +1,2 @@
-- godaddy does not supports favicon with masked forwarding. So i cannot show favicon on http://me.amitkumar.pro for now. 
+- godaddy does not supports favicon with masked forwarding. So i cannot show favicon on http://me.amitkumar.pro for now.
 - details here. https://www.godaddy.com/community/GoCentral-Website-Builder/Is-there-a-way-on-GoDaddy-to-use-a-favicon-on-a-masked-Domain/td-p/7928

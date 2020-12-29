@@ -25,7 +25,6 @@
   }
 }
 
-
 @include media-breakpoint-only(xs) {
   .detailSection {
     width: 100%;
@@ -34,19 +33,19 @@
 
 @include media-breakpoint-between(sm, md) {
   .detailSection {
-    width: 550px
+    width: 550px;
   }
 }
 
 @include media-breakpoint-only(lg) {
   .detailSection {
-    width: 700px
+    width: 700px;
   }
 }
 
 @include media-breakpoint-only(xl) {
   .detailSection {
-    width: 800px
+    width: 800px;
   }
 }
 
@@ -95,4 +94,3 @@
   margin: 0px;
   padding: 0px !important;
 }
-

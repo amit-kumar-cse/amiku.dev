@@ -3,6 +3,7 @@
 # i created
 .idea
 .firebase
+public/google-maps-key.txt
 
 # dependencies
 /node_modules
