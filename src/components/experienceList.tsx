@@ -5,7 +5,7 @@ import classes from "./details.module.scss";
 
 import experienceData from "../data/experience";
 
-const experienceList = (props) => {
+const experienceList = () => {
   return (
     <div className={`card text-secondary ${classes.detailSection} shadow mb-4`}>
       <div className={`card-header ${classes.myCardHeader}`}>

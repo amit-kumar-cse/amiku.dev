@@ -1,4 +1,6 @@
-const skillData = [
+import SkillModel from "../model/skillModel";
+
+const skillData: SkillModel[] = [
   {
     name: "ReactJS",
     level: 95,

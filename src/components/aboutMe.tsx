@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./details.module.scss";
 
-const aboutMe = (props) => {
+const aboutMe = () => {
   return (
     <div className={`card text-secondary ${classes.detailSection} shadow mb-4`}>
       <div className={`card-header ${classes.myCardHeader}`}>

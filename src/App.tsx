@@ -6,6 +6,7 @@ import AboutMe from "./components/aboutMe";
 import EducationList from "./components/educationList";
 import ExperienceList from "./components/experienceList";
 import { SkillSet } from "./components/skillSet";
+import { skillData } from "./data/skillData";
 import MapComponent from "./components/googleMaps";
 
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
@@ -16,13 +17,6 @@ import { MdMail } from "react-icons/md";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    // let randomKey  = Math.random()*5;
-    this.state = {
-      backgroundKey: 2,
-    };
-  }
   render() {
     let navigateToGithub = () => {
       window.open("https://github.com/amikudev");
@@ -44,7 +38,9 @@ class App extends React.Component {
       window.open("mailto:amitgarg.cse@gmail.com");
     };
 
-    let url = `images/bg-${this.state.backgroundKey}.jpeg`;
+    const randomImageKey = 2;
+    // const randomImageKey = Math.random()*5;
+    let url = `images/bg-${randomImageKey}.jpeg`;
     console.log("url", url);
     let style = {
       backgroundImage: `url(${url})`,
@@ -81,10 +77,10 @@ class App extends React.Component {
         {/*body*/}
         <div className={classes.detailsContainer}>
           <AboutMe />
-          <SkillSet />
+          <SkillSet skillData={skillData} />
           <ExperienceList />
           <EducationList />
-          <MapComponent isMarkerShown={true} />
+          <MapComponent />
         </div>
 
         <footer className={classes.footer}>

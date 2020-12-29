@@ -1,9 +1,13 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 
 import classes from "./details.module.scss";
+import ExperienceModel from "../model/experienceModel";
 
-class Experience extends Component {
+interface ExperienceProps {
+  experience: ExperienceModel;
+}
+
+class Experience extends Component<ExperienceProps> {
   render() {
     return (
       <div className="row no-gutters">
@@ -41,18 +45,5 @@ class Experience extends Component {
     );
   }
 }
-
-Experience.propTypes = {
-  experience: PropTypes.shape({
-    firm: PropTypes.string,
-    position: PropTypes.string,
-    startDate: PropTypes.string,
-    endDate: PropTypes.string,
-    period: PropTypes.string,
-    location: PropTypes.string,
-    icon: PropTypes.string,
-    showLine: PropTypes.bool,
-  }),
-};
 
 export default Experience;

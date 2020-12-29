@@ -1,30 +1,13 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 
 import classes from "./details.module.scss";
+import EducationModel from "../model/educationModel";
 
-class Education extends Component {
-  componentDidMount() {
-    //get request
-    // fetch('https://reqres.in/api/users')
-    //     .then(res => res.json())
-    //     .then(output => {
-    //         console.log(output)
-    //     })
-    //post request
-    // fetch('https://reqres.in/api/users', {
-    //     body: {
-    //         "name": "morpheus",
-    //         "job": "leader"
-    //     },
-    //     method: 'POST'
-    // })
-    //     .then(res => res.json())
-    //     .then(output => {
-    //         console.log(output)
-    //     })
-  }
+interface EducationProps {
+  education: EducationModel;
+}
 
+class Education extends Component<EducationProps> {
   render() {
     return (
       <div className="row no-gutters">
@@ -32,7 +15,7 @@ class Education extends Component {
           <img
             src={"./images/" + this.props.education.icon}
             className="mt-2 mb-2"
-            alt={this.props.education.firm}
+            alt={this.props.education.college}
           />
         </div>
         <div className={`${classes.fontsSize} col-12 col-sm-10 pl-3`}>
@@ -56,17 +39,5 @@ class Education extends Component {
     );
   }
 }
-
-Education.propTypes = {
-  education: PropTypes.shape({
-    college: PropTypes.string,
-    degree: PropTypes.string,
-    specialization: PropTypes.string,
-    from: PropTypes.string,
-    to: PropTypes.string,
-    icon: PropTypes.string,
-    showLine: PropTypes.bool,
-  }),
-};
 
 export default Education;

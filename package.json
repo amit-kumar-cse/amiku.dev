@@ -2,8 +2,8 @@
   "name": "amitkumar.pro",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://amitkumar.pro.s3-website.ap-south-1.amazonaws.com/",
-  "qa": "http://test.amitkumar.pro.s3-website.ap-south-1.amazonaws.com/",
+  "homepage": "https://amitku.dev",
+  "qa": "https://amitku.dev",
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@material-ui/icons": "^4.11.2",
@@ -47,8 +47,13 @@
     ]
   },
   "devDependencies": {
+    "@types/jest": "^26.0.19",
+    "@types/node": "^14.14.16",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
     "node-sass": "^4.14.1",
     "prettier": "2.2.1",
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "typescript": "^4.1.3"
   }
 }

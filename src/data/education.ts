@@ -1,4 +1,6 @@
-const education = [
+import EducationModel from "../model/educationModel";
+
+const education: EducationModel[] = [
   {
     college: "IIT Varanasi",
     degree: "B. Tech.",

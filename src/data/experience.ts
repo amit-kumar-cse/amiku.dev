@@ -1,4 +1,6 @@
-const experiences = [
+import ExperienceModel from "../model/experienceModel";
+
+const experiences: ExperienceModel[] = [
   {
     firm: "GE Healthcare",
     position: "Senior Software Engineer",

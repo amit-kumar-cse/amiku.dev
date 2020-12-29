@@ -3,7 +3,7 @@ import Education from "./education";
 import educationData from "../data/education";
 import classes from "./details.module.scss";
 
-const educationList = (props) => {
+const educationList = () => {
   return (
     <div className={`card text-secondary ${classes.detailSection} mb-4 shadow`}>
       <div className={`card-header ${classes.myCardHeader}`}>

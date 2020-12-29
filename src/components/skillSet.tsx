@@ -1,9 +1,13 @@
 import React from "react";
 import { SkillBars } from "react-skills";
-import { skillData } from "../data/skillData";
 import classes from "./details.module.scss";
+import SkillModel from "../model/skillModel";
 
-const SkillSet = () => {
+interface SkillSetProps {
+  skillData: SkillModel[];
+}
+
+const SkillSet: React.FC<SkillSetProps> = (props) => {
   // return
   return (
     <div className={`card text-secondary ${classes.detailSection} shadow mb-4`}>
@@ -15,7 +19,7 @@ const SkillSet = () => {
       <div
         className={`${classes.fontsSize} ${classes.cardBody} card-body text-left`}
       >
-        <SkillBars skills={skillData}></SkillBars>
+        <SkillBars skills={props.skillData}></SkillBars>
       </div>
     </div>
   );

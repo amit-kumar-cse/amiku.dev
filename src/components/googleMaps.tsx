@@ -4,18 +4,9 @@ import classes from "./details.module.scss";
 
 class Map extends Component {
   render() {
-    const mapContainerEl = document.getElementById("myMapContainer");
-    let mapContainerWidth;
-    if (mapContainerEl) {
-      mapContainerWidth = mapContainerEl.offsetHeight;
-    }
-    console.log("mapContainerWidth", mapContainerWidth);
-    mapContainerWidth = mapContainerWidth ? mapContainerWidth : 500;
-    mapContainerWidth += "px";
-    console.log("mapContainerWidth", mapContainerWidth);
     const GoogleMapExample = withGoogleMap((props) => (
       <GoogleMap
-        defaultCenter={{ lat: 12.9723, lng: 77.7227 }}
+        defaultCenter={{ lat: 22.9723, lng: 77.7227 }}
         defaultZoom={3}
         clickableIcons={true}
       >
