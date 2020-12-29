@@ -5,7 +5,7 @@ const Header: React.FC = () => {
   return (
     <div className="rounded-lg shadow-lg">
       <div className={classes.bgImageContainer}>
-        <img src="./images/code-coding-data-574073.jpg" alt={"Background"} />
+        <img src="./images/header-image.jpg" alt={"Background"} />
         <img
           src="./images/amit-kumar.jpg"
           className={`${classes.photo} img-fluid shadow-lg`}
