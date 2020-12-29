@@ -25,23 +25,23 @@ class App extends React.Component {
     }
     render() {
         let navigateToGithub = () => {
-            window.open('https://github.com/amit1702');
+            window.open('https://github.com/amikudev');
         };
 
         let navigateToLinkedin = () => {
-            window.open('https://www.linkedin.com/in/amitkumar-iitbhu/');
+            window.open('https://www.linkedin.com/in/amitkudev/');
         };
 
         let navigateToTwitter = () => {
             if(window.innerWidth > 800) {
-                window.open('https://twitter.com/amit1702');
+                window.open('https://twitter.com/amikudev');
             } else {
-                window.open('https://mobile.twitter.com/amit1702');
+                window.open('https://mobile.twitter.com/amikudev');
             }
         };
 
         let sendEmail = () => {
-            window.open('mailto:me@amitkumar.pro');
+            window.open('mailto:amitgarg.cse@gmail.com');
         };
 
         let url = `images/bg-${this.state.backgroundKey}.jpeg`;
