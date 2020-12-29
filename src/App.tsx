@@ -8,9 +8,7 @@ import ExperienceList from "./components/experienceList";
 import { SkillSet } from "./components/skillSet";
 import { skillData } from "./data/skillData";
 import MapComponent from "./components/googleMaps";
-
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import { MdMail } from "react-icons/md";
+import Footer from "./components/footer/footer";
 
 // import $ from 'jquery';
 // import Popper from 'popper.js';
@@ -18,26 +16,6 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 class App extends React.Component {
   render() {
-    let navigateToGithub = () => {
-      window.open("https://github.com/amikudev");
-    };
-
-    let navigateToLinkedin = () => {
-      window.open("https://www.linkedin.com/in/amitkudev/");
-    };
-
-    let navigateToTwitter = () => {
-      if (window.innerWidth > 800) {
-        window.open("https://twitter.com/amikudev");
-      } else {
-        window.open("https://mobile.twitter.com/amikudev");
-      }
-    };
-
-    let sendEmail = () => {
-      window.open("mailto:amitgarg.cse@gmail.com");
-    };
-
     const randomImageKey = 2;
     // const randomImageKey = Math.random()*5;
     let url = `images/bg-${randomImageKey}.jpeg`;
@@ -83,30 +61,7 @@ class App extends React.Component {
           <MapComponent />
         </div>
 
-        <footer className={classes.footer}>
-          <div>
-            <FaGithub
-              onClick={navigateToGithub}
-              size={30}
-              className={`${classes.icon} mr-4`}
-            />
-            <FaLinkedin
-              onClick={navigateToLinkedin}
-              size={30}
-              className={`${classes.icon} mr-4`}
-            />
-            <FaTwitter
-              onClick={navigateToTwitter}
-              size={30}
-              className={`${classes.icon} mr-4`}
-            />
-            <MdMail
-              onClick={sendEmail}
-              size={30}
-              className={`${classes.icon}`}
-            />
-          </div>
-        </footer>
+        <Footer />
       </div>
     );
   }
