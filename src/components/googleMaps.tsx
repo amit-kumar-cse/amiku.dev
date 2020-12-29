@@ -4,6 +4,7 @@ import classes from "./details.module.scss";
 
 class Map extends Component {
   render() {
+    //todo: move to this library if it is better https://www.npmjs.com/package/google-map-react
     const GoogleMapExample = withGoogleMap((props) => (
       <GoogleMap
         defaultCenter={{ lat: 22.9723, lng: 77.7227 }}
