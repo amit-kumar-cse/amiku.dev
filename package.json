@@ -47,10 +47,15 @@
     ]
   },
   "devDependencies": {
+    "@types/enzyme": "^3.10.8",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
     "@types/jest": "^26.0.19",
     "@types/node": "^14.14.16",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "jest-enzyme": "^7.1.2",
     "node-sass": "^4.14.1",
     "prettier": "2.2.1",
     "prop-types": "^15.7.2",
