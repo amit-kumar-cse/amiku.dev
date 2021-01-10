@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
   };
 
   let navigateToLinkedin = () => {
-    window.open("https://www.linkedin.com/in/amitkudev/");
+    window.open("https://www.linkedin.com/in/amikudev/");
   };
 
   let navigateToTwitter = () => {
