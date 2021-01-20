@@ -17,7 +17,7 @@ const aboutMe = () => {
           <p>
             Software professional with 7 years of experience in Javascript
             frontends design and development at Amazon, GE Healthcare, Morgan
-            Stanley and Adobe.
+            Stanley.
           </p>
 
           <ul className={classes.listStyle}>

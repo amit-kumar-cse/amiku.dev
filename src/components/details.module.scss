@@ -58,7 +58,9 @@
     grid-area: summary;
     margin-top: 3px;
     margin-bottom: 10px;
+    padding-bottom: 10px;
     font-size: 1rem;
+    align-self: center;
   }
   .details {
     grid-area: details;
@@ -66,23 +68,20 @@
   }
 }
 
-
-@include media-breakpoint-only(xl) {
-  .detailSection {
-    width: 800px;
-  }
+@include media-breakpoint-between(sm, xl) {
   .edHolder {
-    grid-template: min-content min-content / 100px auto !important;
+    grid-template: min-content min-content / 120px auto !important;
     grid-template-areas:
     "icon summary"
     "details details" !important;
   }
 }
-@media screen {
 
+@include media-breakpoint-only(xl) {
+  .detailSection {
+    width: 800px;
+  }
 }
-
-
 
 .listStyle {
   list-style: square;
