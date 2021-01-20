@@ -2,38 +2,25 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
 
+// media query area
+//@include media-breakpoint-between(xs, md) {
+//  .fontsSize {
+//    font-size: 1.2rem !important;
+//  }
+//}
+//@include media-breakpoint-between(lg, xl) {
+//  .fontsSize {
+//    font-size: 1.1rem !important;
+//  }
+//}
 @include media-breakpoint-between(xs, md) {
-  .fontsSize {
-    font-size: 1.2rem !important;
+  .cardBody {
+    padding: 18px 24px 6px 24px !important;
   }
 }
-
 @include media-breakpoint-between(lg, xl) {
-  .fontsSize {
-    font-size: 1.1rem !important;
-  }
-}
-
-.companyIcon {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-
-  img {
-    width: 100%;
-    max-width: 110px;
-  }
-}
-
-@include media-breakpoint-only(xs) {
-  .detailSection {
-    width: 100%;
-  }
-}
-
-@include media-breakpoint-between(sm, md) {
-  .detailSection {
-    width: 550px;
+  .cardBody {
+    padding: 22px 32px 10px 32px !important;
   }
 }
 
@@ -42,12 +29,60 @@
     width: 700px;
   }
 }
+@include media-breakpoint-between(sm, md) {
+  .detailSection {
+    width: 550px;
+  }
+}
+
+
+.edHolder {
+  display: grid;
+  grid-template: min-content min-content / 1.3fr 3fr;
+  grid-template-areas:
+    "icon summary"
+    "details details";
+  .companyIcon {
+    grid-area: icon;
+    justify-content: center;
+    place-items: center;
+    display: flex;
+    margin: 0px 15px 10px 7px;
+    img {
+      width: 100%;
+      min-width: 65px;
+      max-width: 95px;
+    }
+  }
+  .summary {
+    grid-area: summary;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  .details {
+    grid-area: details;
+    font-size: 1rem;
+  }
+}
+
 
 @include media-breakpoint-only(xl) {
   .detailSection {
     width: 800px;
   }
+  .edHolder {
+    grid-template: min-content min-content / 100px auto !important;
+    grid-template-areas:
+    "icon summary"
+    "details details" !important;
+  }
 }
+@media screen {
+
+}
+
+
 
 .listStyle {
   list-style: square;
@@ -57,18 +92,6 @@
   height: 54px;
   display: flex;
   justify-content: center;
-}
-
-@include media-breakpoint-between(xs, md) {
-  .cardBody {
-    padding: 18px 24px 6px 24px !important;
-  }
-}
-
-@include media-breakpoint-between(lg, xl) {
-  .cardBody {
-    padding: 22px 32px 10px 32px !important;
-  }
 }
 
 .textShadow {
@@ -94,3 +117,5 @@
   margin: 0px;
   padding: 0px !important;
 }
+
+

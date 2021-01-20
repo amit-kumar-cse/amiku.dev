@@ -9,6 +9,7 @@
     "@material-ui/icons": "^4.11.2",
     "bootstrap": "^4.5.3",
     "build": "^0.1.4",
+    "classnames": "^2.2.6",
     "d3": "^5.16.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
@@ -26,10 +27,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:deploy": "npm run build && npm run deploy",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "firebase deploy",
-    "deploy:qa": "firebase hosting:channel:deploy staging --expires 7d"
+    "build:deploy:qa": "npm run build && firebase hosting:channel:deploy staging --expires 7d"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -47,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@types/classnames": "^2.2.11",
     "@types/enzyme": "^3.10.8",
     "@types/enzyme-adapter-react-16": "^1.0.6",
     "@types/jest": "^26.0.19",

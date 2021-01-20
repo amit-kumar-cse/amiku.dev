@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import classes from "./details.module.scss";
 import EducationModel from "../model/educationModel";
+import cx from "classnames";
 
 interface EducationProps {
   education: EducationModel;
@@ -10,15 +11,15 @@ interface EducationProps {
 class Education extends Component<EducationProps> {
   render() {
     return (
-      <div className="row no-gutters">
-        <div className={`col-12 col-sm-2 ${classes.companyIcon}`}>
+      <div className={classes.edHolder}>
+        <div className={`${classes.companyIcon}`}>
           <img
             src={"./images/" + this.props.education.icon}
             className="mt-2 mb-2"
             alt={this.props.education.college}
           />
         </div>
-        <div className={`${classes.fontsSize} col-12 col-sm-10 pl-3`}>
+        <div className={cx([classes.fontsSize, classes.summary])}>
           <div className={`${classes.gray} mb-1 font-weight-bolder`}>
             {this.props.education.college}
           </div>
@@ -30,10 +31,13 @@ class Education extends Component<EducationProps> {
           <div className="text-secondary">
             {this.props.education.startDate} - {this.props.education.endDate}
           </div>
-          <hr className={classes.lighterHr} />
+          {/*<hr className={classes.lighterHr} />*/}
+        </div>
+        <div className={cx([classes.fontsSize, classes.details])}>
+          {/*<hr className={classes.lighterHr} />*/}
           {this.props.children}
 
-          {/*{this.props.education.showLine? (<hr/>): null}*/}
+          {/*{this.props.experience.showLine? (<hr/>): null}*/}
         </div>
       </div>
     );
