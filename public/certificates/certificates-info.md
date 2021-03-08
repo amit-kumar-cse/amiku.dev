@@ -8,5 +8,6 @@
     * 28th Jan 2021
 * Ultimate CSS Grid Course: From Beginner to Advanced
   * http://ude.my/UC-0c1b3c97-2f2c-482a-802a-21f12051a825
+* Ionic
+  * https://www.udemy.com/certificate/UC-91f11dd6-6121-466e-9cf6-c6076510dc48/
   
-*
